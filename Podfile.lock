@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Faye (1.1.8):
+    - Starscream (~> 3.0.6)
+  - GetStream (1.2.2):
+    - GetStream/Core (= 1.2.2)
+    - GetStream/Faye (= 1.2.2)
+  - GetStream/Core (1.2.2):
+    - Alamofire (= 4.8.1)
+    - Moya (= 12.0.1)
+    - Result (= 4.1)
+    - Swime (= 3.0.1)
+  - GetStream/Faye (1.2.2):
+    - Faye
+    - GetStream/Core
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Result (4.1.0)
+  - Starscream (3.0.6)
+  - Swime (3.0.1)
+
+DEPENDENCIES:
+  - GetStream (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Faye
+    - GetStream
+    - Moya
+    - Result
+    - Starscream
+    - Swime
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Faye: 1542f032d966663586a6f0d7a7250a41d4054d56
+  GetStream: 45032aa4dc0436c68ebf4a0e0c51c28035bba93b
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Swime: da7f606c7a059f8744bc723aec243af1fb914476
+
+PODFILE CHECKSUM: dbbf064afdb2cb4dcdb019b5669fffb79ad552e5
+
+COCOAPODS: 1.5.3
